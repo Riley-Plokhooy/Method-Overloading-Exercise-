@@ -32,8 +32,11 @@
         }
         static void Main(string[] args) 
         {
-            Console.WriteLine(Add(2, 2, true));
+            Console.WriteLine(Add(1, 0, true));
+            Console.WriteLine(Add(2, 6));
+            Console.WriteLine(Add(3m, 8m));
+                  
         }
-        
-    }
+
+    }  // Hey! Make sure to call all the Add methods in the Main method! :)
 }
